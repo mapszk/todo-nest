@@ -10,7 +10,7 @@ import { TasksModule } from './modules/tasks/tasks.module';
       port: 5432,
       username: 'pszk',
       password: 'postgres',
-      database: 'database',
+      database: 'tododb',
       entities: ['dist/**/*.entity{.ts,.js}'],
       synchronize: false,
       retryDelay: 3000,
