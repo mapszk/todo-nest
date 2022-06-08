@@ -1,11 +1,11 @@
 export class CreateNoteDTO {
-  readonly title: string;
-  readonly description?: string;
-  readonly color?: string;
+  title: string;
+  description?: string;
+  color?: string;
 }
 
 export class UpdateNoteDTO {
-  readonly title?: string;
-  readonly description?: string;
-  readonly color?: string;
+  title?: string;
+  description?: string;
+  color?: string;
 }

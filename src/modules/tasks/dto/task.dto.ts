@@ -1,7 +1,7 @@
 export class CreateTaskDTO {
-  readonly description: string;
+  description: string;
 }
 
 export class UpdateTaskDTO {
-  readonly description: string;
+  description: string;
 }

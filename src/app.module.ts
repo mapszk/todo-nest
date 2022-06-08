@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { NotesModule } from './modules/notes/notes.module';
 import { TasksModule } from './modules/tasks/tasks.module';
 
 @Module({
@@ -17,6 +18,7 @@ import { TasksModule } from './modules/tasks/tasks.module';
       retryAttempts: 10,
     }),
     TasksModule,
+    NotesModule,
   ],
   controllers: [],
   providers: [],
